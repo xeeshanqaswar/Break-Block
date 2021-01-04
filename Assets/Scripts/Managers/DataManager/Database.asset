@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 534e3a190e7ab1a4894079e9ecb5f96b, type: 3}
+  m_Name: Database
+  m_EditorClassIdentifier: 
+  currentLevel: 0
+  unLockedlevels: 0
+  maxlevels: 2
+  playerScore: 0
+  uLevelProps:
+  - name: Level 1
+    levelScore: 16
+    levelTime: 0
+    levelSky: {r: 0.36078432, g: 0, b: 0.6901961, a: 0}
+  - name: Level 2
+    levelScore: 20
+    levelTime: 0
+    levelSky: {r: 0.003921569, g: 0.42745098, b: 0.8862745, a: 0}
+  - name: Level 3
+    levelScore: 22
+    levelTime: 0
+    levelSky: {r: 0.20784314, g: 0.21960784, b: 0.4, a: 0}
+  musicClips:
+  - {fileID: 8300000, guid: 61b38b34f0669394faa8e9f9353beb8c, type: 3}
+  - {fileID: 8300000, guid: 201a3dfb17d717e42a6922172f794066, type: 3}
+  - {fileID: 8300000, guid: d156d798939715746b2aea34902f0b1f, type: 3}
+  - {fileID: 8300000, guid: 7e5de4ab81c0e9e4aa4efd56788c2a87, type: 3}
+  - {fileID: 8300000, guid: 79cf4e54ed28f3f489ca994925ffba97, type: 3}
+  - {fileID: 8300000, guid: d192a2486baea144db172ff76fb42d55, type: 3}
